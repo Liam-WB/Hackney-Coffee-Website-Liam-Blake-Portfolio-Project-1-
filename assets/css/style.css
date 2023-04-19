@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ /* body/header skeleton */
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: rgb(152,107,84);
+    background-color: wheat;
+}
+
+h1, h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(101,69,69);
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#logo-img {
+    background: url(../images/coffee-beans.png) no-repeat center right;
+    width: 458px;
+    height: 88px;
+    background-size: 60px 60px;
+}
+
+/* navigation */
+
