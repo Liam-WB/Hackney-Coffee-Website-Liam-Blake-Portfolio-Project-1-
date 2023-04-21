@@ -235,6 +235,7 @@ header {
 }
 
 #why {
+    width: 98%;
     font-size: 400%;
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
@@ -245,29 +246,74 @@ header {
     background-color: rgba(245, 222, 179, .7);
 
     position: inherit;
-    top: 50%;
+
+/* to fix */
+
+    left: -4%;
+    top: 47%;
 }
 
-#diff1 {
-    width: 60%;
+.diffleft-section {
+    width: 80%;
     float: left;
-    line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
-    text-align: right;
+    text-align: center;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 250%;
+    text-transform: none;
+
+    margin: 25% 4%;
+    padding: 30px 20px;
+    
+    background-color: rgba(245, 222, 179, .7);
 }
 
-#diff3 {
-    width: 60%;
+.diffright-section {
+    width: 80%;
     float: right;
-    line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
-    text-align: left;
+    text-align: center;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 250%;
+    text-transform: none;
+
+    margin: 25% 4%;
+    padding: 30px 20px;
+    
+    background-color: rgba(245, 222, 179, .7);
 }
 
 hr {
-    border-top: 1px solid rgba(245, 222, 179, .7);
+    border-top: 2px solid rgba(101, 69, 69, .7);
+    width: 40%;
+    margin: 0 auto;
+}
+
+.diffleft-section h3 {
+    font-size: 80%;
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(101,69,69);
+}
+
+.diffright-section h3 {
+    font-size: 80%;
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(101,69,69);
+}
+
+#info-section {
     width: 100%;
-    margin: 5px 0;
+    height: 1030px;
+    top: 2245px;
+    position: absolute;
 }
