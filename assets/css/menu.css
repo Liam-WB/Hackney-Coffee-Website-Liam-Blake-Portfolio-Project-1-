@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap=Homemade+Apple&display=swap');
 
 * {
     margin: 0;
@@ -93,33 +93,30 @@ header {
 
 #main-background {
     width: 100%;
-    height: 3800px;
+    height: 2000px;
 
     overflow: hidden;
     position: relative;
 }
 
-.find {
-    text-decoration: none;
-    background-color: rgba(245, 222, 179, .7);
-    font-family: Bebas Neue, sans-serif;
-    font-size: 250%;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: rgb(101,69,69);
-    text-align: center;
-    
-    margin: 0;
-    width: 91%;
-    padding: 30px;
-    position: absolute;
-    bottom: 300px;
+/* Menu */
+
+#menu-heading {
+    width: 100%;
+    height: auto;
+    margin: 10px;
 }
 
-.find:hover {
-    color: wheat;
-    background-color: rgb(101,69,69);
+#menu-heading h2 {
+    font-size: 400%;
+    text-align: center;
+    line-height: 55px;
+}
+
+#menu-heading hr {
+    border-top: 4px solid rgb(101,69,69);
+    width: 8%;
+    margin: 0 auto;
 }
 
 /* contact info */
