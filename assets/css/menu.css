@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Homemade+Apple&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -104,7 +104,7 @@ header {
 #menu-heading {
     width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 50px 0 100px 0;
 }
 
 #menu-heading h2 {
@@ -117,6 +117,170 @@ header {
     border-top: 4px solid rgb(101,69,69);
     width: 8%;
     margin: 0 auto;
+}
+
+#menu-section {
+    width: 100%;
+    height: 996px;
+}
+
+#menu-left-bg {
+    width: 27%;
+    height: 996px;
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-image: url(../images/chalk.jpg);
+    background-repeat: no-repeat;
+}
+
+#menu-left {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 10px solid rgb(101, 69, 69);
+}
+
+#menu-left h2 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 250%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+}
+
+#menu-left h3 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: left;
+    font-size: 200%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+
+    margin-top: 25px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+#menu-left h4 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: left;
+    font-size: 150%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 100;
+
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+#menu-right-bg {
+    width: 27%;
+    height: 996px;
+    float: right;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-image: url(../images/chalk.jpg);
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
+#menu-right {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 10px solid rgb(101, 69, 69);
+    transform: scaleX(-1);
+}
+
+#menu-right h2 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: center;
+    margin: 30px;
+    font-size: 250%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+}
+
+#menu-right h3 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: left;
+    font-size: 200%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+#menu-right h4 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: left;
+    font-size: 150%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 100;
+
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+#menu-cent-bg {
+    width: 28%;
+    height: 996px;
+    margin-right: 3;
+    margin-left: 36%;
+    background-image: url(../images/chalk.jpg);
+    background-repeat: no-repeat;
+    transform: scaleY(-1);
+}
+
+#menu-cent {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 10px solid rgb(101, 69, 69);
+    transform: scaleY(-1);
+}
+
+#menu-cent h2 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: center;
+    margin: 30px;
+    font-size: 250%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+}
+
+#menu-cent h3 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: left;
+    font-size: 200%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+#menu-cent h4 {
+    font-family: Homemade Apple, sans-serif;
+    text-align: left;
+    font-size: 150%;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 100;
+
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.subheader-hr {
+    border-top: 2px solid rgba(255, 255, 255, .8);
+    width: 75%;
+    margin-left: 10px;
 }
 
 /* contact info */
