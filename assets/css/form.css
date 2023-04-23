@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Homemade+Apple&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ /* body/header skeleton */
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: rgb(132,92,71);
+    background-color: wheat;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: rgb(132,92,71);
+    font-size: 60%;
+    text-transform: none;
+}
+
+h1, h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(101,69,69);
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: rgb(132,92,71);
+    font-size: 60%;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#logo-img {
+    background: url(../images/coffee-beans.png) no-repeat center right;
+    float: left;
+    width: 70px;
+    height: 80px;
+    background-size: 60px 60px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+/* navigation */
+
+#navigation {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+#navigation li {
+    float: right;
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+#navigation, #logo, #logo-img {
+    line-height: 80px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 2px solid rgb(132,92,71);
+}
+
+.current {
+    border-bottom: 2px solid rgb(132,92,71);
+}
+
+/* main background */
+
+#main-background {
+    width: 100%;
+    height: 2000px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+/* Menu */
+
+#form-heading {
+    width: 100%;
+    height: auto;
+    margin: 50px 0 100px 0;
+}
+
+#form-heading h2 {
+    font-size: 400%;
+    text-align: center;
+    line-height: 55px;
+}
+
+#form-heading hr {
+    border-top: 4px solid rgb(101,69,69);
+    width: 14%;
+    margin: 0 auto;
+}
+
+/* contact info */
+
+#contact {
+    width: 88%;
+    height: 160px;
+    bottom: 400px;
+    position: absolute;
+
+    background-color: rgb(101,69,69);
+    font-weight: 500;
+    font-size: 100%;
+
+    margin: 0 4.5%;
+    padding: 30px;
+    line-height: 40px;
+}
+
+#contact h2 {
+    color: wheat;
+}
+
+#contact-heading {
+    font-weight: 500;
+    font-size: 200%;
+}
+
+#contact-hr {
+    border-top: 2px solid wheat;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#alt {
+    float: right;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 300px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 400%;
+
+    margin-bottom: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 3%;
+    color: rgb(101, 69, 69);
+}
