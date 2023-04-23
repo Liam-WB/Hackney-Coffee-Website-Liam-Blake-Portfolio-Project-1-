@@ -42,6 +42,16 @@
             <h2>Contact Us</h2>
             <hr>
         </div>
+        <section id="form-section">
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="email" name="email_address" placeholder="Email" required>
+                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone" required>
+                <br>
+                <input id="send" type="submit" value="Send">
+            </form>
+            <textarea name="comment" form="usrform" placeholder="How can we help?" required></textarea>
+        </section>
         <div id="contact">
             <h2 id="contact-heading">Contact Info</h2>
             <hr id="contact-hr">

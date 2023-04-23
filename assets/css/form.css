@@ -93,18 +93,18 @@ header {
 
 #main-background {
     width: 100%;
-    height: 2000px;
+    height: 1300px;
 
     overflow: hidden;
     position: relative;
 }
 
-/* Menu */
+/* form */
 
 #form-heading {
     width: 100%;
     height: auto;
-    margin: 50px 0 100px 0;
+    margin: 50px 0;
 }
 
 #form-heading h2 {
@@ -117,6 +117,64 @@ header {
     border-top: 4px solid rgb(101,69,69);
     width: 14%;
     margin: 0 auto;
+}
+
+#form-section {
+    font-size: 22px;
+    text-align: center;
+}
+
+#form-section h5 {
+    font-size: 22px;
+}
+
+form input {
+    line-height: 22px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+
+    width: 400px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 4.5%;
+}
+
+#send {
+    background-color: rgb(101,69,69);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 170%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: wheat;
+
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    right: 82px;
+    bottom: 680px;
+}
+
+#send:hover {
+    background-color: wheat;
+    color: rgb(101,69,69);
+}
+
+textarea {
+    line-height: 22px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+
+    width: 91%;
+    height: 220px;
+    margin: 0 4.5%;
+    position: absolute;
+    bottom: 780px;
+    left: 0;
 }
 
 /* contact info */
