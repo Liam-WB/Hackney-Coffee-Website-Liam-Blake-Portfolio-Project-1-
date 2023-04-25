@@ -160,6 +160,8 @@ form input {
 #send:hover {
     background-color: wheat;
     color: rgb(101,69,69);
+    border: 1px solid rgb(101,69,69);
+    cursor: pointer;
 }
 
 textarea {
@@ -240,4 +242,15 @@ footer {
     margin-right: 4%;
     padding: 3%;
     color: rgb(101, 69, 69);
+}
+
+/* success page */
+
+#thank {
+    text-align: center;
+    font-size: 300%;
+    padding-top: 200px;
+
+    width: 100%;
+    height: 300px;
 }
