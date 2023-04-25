@@ -311,7 +311,7 @@ hr {
     color: rgb(101,69,69);
 }
 
-/*opening times/location section*/
+/* opening times/location section */
 
 #info-section {
     width: 100%;
@@ -323,27 +323,29 @@ hr {
 #opentimes-heading {
     font-weight: 500;
     text-align: center;
-    width: 12.8%;
+    width: 12.65%;
 
-    border: 4px solid rgb(101,69,69);
+    border-left: 8px solid rgb(101,69,69);
+    border-right: 8px solid rgb(101,69,69);
+    border-top: 8px solid rgb(101,69,69);
     background-color: rgba(245, 222, 179, .7);
     margin-left: 4%;
     padding: 10px 0;
 }
 
 #opentimes {
-    background-image: url(../images/coffee\ shop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: none;
     width: 92%;
     margin: 0 4%;
     overflow: hidden;
+    border-spacing: 0;
 }
 
 #opentimes th, td {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 100;
+    background-color: rgba(245, 222, 179, .7);
     color: rgb(101,69,69);
-    background-color: rgba(245, 222, 179, 0.5);
     width: 14.3%;
     height: 200px;
     font-size: 30px;
@@ -353,7 +355,11 @@ hr {
     border: 4px solid rgb(101,69,69);
     padding: 30px;
     box-sizing: border-box;
-    
+    border-collapse: collapse;
+}
+
+#opentimes {
+    border: 4px solid rgb(101,69,69);
 }
 
 /* Google maps */
@@ -371,16 +377,16 @@ hr {
 /* contact info */
 
 #contact {
-    width: 84.5%;
+    width: 87.25%;
     height: 160px;
-    bottom: 400px;
+    bottom: 408px;
     position: absolute;
 
     background-color: rgba(245, 222, 179, .7);
     font-weight: 500;
     font-size: 100%;
 
-    margin: 0 4.5%;
+    margin: 0 4.9%;
     padding: 30px;
     line-height: 40px;
 }
