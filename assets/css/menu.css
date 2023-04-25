@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Homemade+Apple&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=East+Sea+Dokdo&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -93,7 +93,7 @@ header {
 
 #main-background {
     width: 100%;
-    height: 2000px;
+    height: 1900px;
 
     overflow: hidden;
     position: relative;
@@ -142,30 +142,30 @@ header {
 }
 
 #menu-left h2 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: center;
     margin-top: 30px;
-    font-size: 250%;
+    font-size: 350%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
 }
 
 #menu-left h3 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: left;
-    font-size: 200%;
+    font-size: 300%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
 
     margin-top: 25px;
-    margin-left: 30px;
+    margin-left: 20px;
     line-height: 40px;
 }
 
 #menu-left h4 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: left;
-    font-size: 150%;
+    font-size: 200%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
     font-weight: 100;
@@ -194,30 +194,31 @@ header {
 }
 
 #menu-right h2 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: center;
     margin: 30px;
-    font-size: 250%;
+    font-size: 350%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
 }
 
 #menu-right h3 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: left;
-    font-size: 200%;
+    font-size: 300%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
 
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     line-height: 40px;
 }
 
 #menu-right h4 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: left;
-    font-size: 150%;
+    font-size: 200%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
     font-weight: 100;
@@ -245,30 +246,30 @@ header {
 }
 
 #menu-cent h2 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: center;
     margin: 30px;
-    font-size: 250%;
+    font-size: 350%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
 }
 
 #menu-cent h3 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: left;
-    font-size: 200%;
+    font-size: 300%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
 
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
     line-height: 40px;
 }
 
 #menu-cent h4 {
-    font-family: Homemade Apple, sans-serif;
+    font-family: East Sea Dokdo, sans-serif;
     text-align: left;
-    font-size: 150%;
+    font-size: 200%;
     text-transform: none;
     color: rgba(255, 255, 255, .8);
     font-weight: 100;
@@ -288,10 +289,10 @@ header {
 #contact {
     width: 88%;
     height: 160px;
-    bottom: 400px;
+    bottom: 240px;
     position: absolute;
 
-    background-color: rgb(101,69,69);
+    background-color: rgb(101, 69, 69);
     font-weight: 500;
     font-size: 100%;
 
@@ -300,13 +301,24 @@ header {
     line-height: 40px;
 }
 
-#contact h2 {
-    color: wheat;
+#contact-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#contact-right {
+    width: 50%;
+    height: 100%;
+    float: right;
 }
 
 #contact-heading {
     font-weight: 500;
     font-size: 200%;
+    color: wheat;
+
+    padding-bottom: 5px;
 }
 
 #contact-hr {
@@ -317,14 +329,45 @@ header {
 }
 
 #alt {
+    color: wheat;
     float: right;
+    line-height: 0;
+}
+
+#address-heading {
+    color: wheat;
+    font-weight: 500;
+    font-size: 200%;
+    padding-bottom: 4px;
+}
+
+#contact-right h2 {
+    color: wheat;
+    width: 100%;
+    line-height: 32px;
+    padding-top: 5px;
+}
+
+#contact-left h2 {
+    color: wheat;
+    width: 100%;
+    line-height: 32px;
+    padding-top: 5px;
+}
+
+#address-hr {
+    border-top: 2px solid wheat;
+    width: 40%;
+    margin: 0 auto;
+
+    position: absolute;
 }
 
 /* footer */
 
 footer {
     width: 100%;
-    height: 300px;
+    height: 200px;
 
     position: absolute;
     bottom: 0;

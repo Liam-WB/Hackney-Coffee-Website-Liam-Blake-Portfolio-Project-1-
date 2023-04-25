@@ -154,7 +154,7 @@ form input {
     height: 60px;
     position: absolute;
     right: 82px;
-    bottom: 680px;
+    bottom: 620px;
 }
 
 #send:hover {
@@ -175,7 +175,7 @@ textarea {
     height: 220px;
     margin: 0 4.5%;
     position: absolute;
-    bottom: 780px;
+    bottom: 750px;
     left: 0;
 }
 
@@ -184,10 +184,10 @@ textarea {
 #contact {
     width: 88%;
     height: 160px;
-    bottom: 400px;
+    bottom: 260px;
     position: absolute;
 
-    background-color: rgb(101,69,69);
+    background-color: rgb(101, 69, 69);
     font-weight: 500;
     font-size: 100%;
 
@@ -196,13 +196,24 @@ textarea {
     line-height: 40px;
 }
 
-#contact h2 {
-    color: wheat;
+#contact-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#contact-right {
+    width: 50%;
+    height: 100%;
+    float: right;
 }
 
 #contact-heading {
     font-weight: 500;
     font-size: 200%;
+    color: wheat;
+
+    padding-bottom: 5px;
 }
 
 #contact-hr {
@@ -213,14 +224,45 @@ textarea {
 }
 
 #alt {
+    color: wheat;
     float: right;
+    line-height: 0;
+}
+
+#address-heading {
+    color: wheat;
+    font-weight: 500;
+    font-size: 200%;
+    padding-bottom: 4px;
+}
+
+#contact-right h2 {
+    color: wheat;
+    width: 100%;
+    line-height: 32px;
+    padding-top: 5px;
+}
+
+#contact-left h2 {
+    color: wheat;
+    width: 100%;
+    line-height: 32px;
+    padding-top: 5px;
+}
+
+#address-hr {
+    border-top: 2px solid wheat;
+    width: 40%;
+    margin: 0 auto;
+
+    position: absolute;
 }
 
 /* footer */
 
 footer {
     width: 100%;
-    height: 300px;
+    height: 210px;
 
     position: absolute;
     bottom: 0;
@@ -249,7 +291,7 @@ footer {
 #thank {
     text-align: center;
     font-size: 300%;
-    padding-top: 200px;
+    padding-top: 300px;
 
     width: 100%;
     height: 300px;
