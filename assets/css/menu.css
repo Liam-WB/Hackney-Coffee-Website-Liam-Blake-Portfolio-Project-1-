@@ -230,7 +230,6 @@ header {
 #menu-cent-bg {
     width: 28%;
     height: 996px;
-    margin-right: 3;
     margin-left: 36%;
     background-image: url(../images/chalk.jpg);
     background-repeat: no-repeat;
@@ -296,8 +295,8 @@ header {
     font-weight: 500;
     font-size: 100%;
 
-    margin: 0 4.5%;
-    padding: 30px;
+    margin: 0 4%;
+    padding: 2%;
     line-height: 40px;
 }
 
@@ -393,20 +392,180 @@ footer {
 
 /* media queries */
 
-/* larger to medium screens (1200px=>) */
+/* large screens (1665px=> */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
+
+    #menu-heading hr {
+        width: auto;
+    }
+
+    #menu-section {
+        font-size: 80%;
+    }
+
+    footer {
+        height: 200px;
+        font-size: 80%;
+    }
+}
+
+/*large screens (1470px=>) */
+
+@media screen and (max-width: 1470px) {
+
+    #menu-section {
+        font-size: 80%;
+    }
 
 }
 
-/* medium to small screens (950px=>) */
+/* medium to small screens (1150px=>) */
 
-@media screen and (max-width: 950px) {
-    
+@media screen and (max-width: 1150px) {
+
+    #main-background {
+        height: 2500px
+    }
+
+    #menu-left-bg {
+        width: 44%;
+        position: absolute;
+        left: 4%;
+        top: 150px;
+        margin: 0 auto;
+    }
+
+    #menu-cent-bg {
+        width: 44%;
+        position: absolute;
+        top: 1150px;
+        left: 4%;
+        margin: 0 auto;
+        height: 900px;
+    }
+
+    #menu-right-bg {
+        width: 44%;
+        position: absolute;
+        right: 4%;
+        top: 600px;
+        margin: 0 auto;
+    }
+
+    #contact {
+        bottom: 220px;
+    }
+
+    #alt {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 90%;
+    }
+
+    footer {
+        font-size: 60%;
+        height: 150px;
+    }
+
 }
 
-/* small screens (800px=>) */
+/* small screens (735px=>) */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 735px) {
     
+    #main-background {
+        height: 2500px;
+    }
+
+    header {
+        height: 50px;
+        font-size: 80%;
+    }
+
+    #logo {
+        width: 80%;
+    }
+
+    #logo-img {
+        position: absolute;
+        left: 320px;
+    }
+
+    #navigation {
+        height: 60px;
+        width: 100%;
+        float: left;
+    }
+
+    #menu-heading {
+        font-size: 80%;
+    }
+
+    #menu-left-bg, #menu-right-bg, #menu-cent-bg {
+        font-size: 80%;
+    }
+
+    #contact {
+        font-size: 80%;
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    #main-background {
+        height: 3300px;
+    }
+
+    #logo-img {
+        visibility: hidden;
+    }
+
+    #header {
+        font-size: 60%;
+        height: auto;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #menu-left-bg {
+        width: 92%;
+        top: 130px;
+        height: 950px;
+    }
+
+    #menu-cent-bg {
+        width: 92%;
+        top: 1100px;
+        height: 950px;
+    }
+
+    #menu-right-bg {
+        width: 92%;
+        left: 4%;
+        top: 2070px;
+        margin: 0 auto;
+        height: 950px;
+    }
+
+    #contact {
+        font-size: 60%;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+
+    #alt {
+        visibility: hidden;
+    }
+
+    footer {
+        font-size: 50%;
+        height: 130px;
+    }
+
 }
