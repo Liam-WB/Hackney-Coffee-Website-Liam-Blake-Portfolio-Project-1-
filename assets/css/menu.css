@@ -390,3 +390,23 @@ footer {
     padding: 3%;
     color: rgb(101, 69, 69);
 }
+
+/* media queries */
+
+/* larger to medium screens (1200px=>) */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* medium to small screens (950px=>) */
+
+@media screen and (max-width: 950px) {
+    
+}
+
+/* small screens (800px=>) */
+
+@media screen and (max-width: 800px) {
+    
+}

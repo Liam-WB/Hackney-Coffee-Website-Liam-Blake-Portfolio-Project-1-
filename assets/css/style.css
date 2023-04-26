@@ -378,7 +378,7 @@ hr {
 /* contact info */
 
 #contact {
-    width: 87.25%;
+    width: 91%;
     height: 160px;
     bottom: 408px;
     position: absolute;
@@ -387,21 +387,22 @@ hr {
     font-weight: 500;
     font-size: 100%;
 
-    margin: 0 4.9%;
-    padding: 30px;
-    line-height: 40px;
+    left: 4.5%;
+    line-height: 35px;
 }
 
 #contact-left {
-    width: 50%;
-    height: 100%;
+    width: 47%;
+    height: auto;
     float: left;
+    padding: 20px;
 }
 
 #contact-right {
-    width: 50%;
-    height: 100%;
+    width: 47%;
+    height: auto;
     float: right;
+    padding: 20px;
 }
 
 #contact-heading {
@@ -417,8 +418,9 @@ hr {
 }
 
 #alt {
-    float: right;
-    line-height: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
 }
 
 #address-heading {
@@ -464,4 +466,24 @@ footer {
     margin-right: 4%;
     padding: 3%;
     color: wheat;
+}
+
+/* media queries */
+
+/* larger to medium screens (1200px=>) */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* medium to small screens (950px=>) */
+
+@media screen and (max-width: 950px) {
+    
+}
+
+/* small screens (800px=>) */
+
+@media screen and (max-width: 800px) {
+    
 }
