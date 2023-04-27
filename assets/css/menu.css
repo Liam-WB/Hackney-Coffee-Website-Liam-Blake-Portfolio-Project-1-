@@ -554,9 +554,14 @@ footer {
     }
 
     #contact {
-        font-size: 60%;
-        line-height: 12px;
+        font-size: 50%;
+        line-height: 4px;
         letter-spacing: 2px;
+        bottom: 160px;
+    }
+
+    #contact-left {
+        overflow: hidden;
     }
 
     #alt {

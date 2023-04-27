@@ -299,20 +299,6 @@ footer {
 
 /* media queries */
 
-/* large screens (1665px=> */
-
-@media screen and (max-width: 1280px) {
-
-    #form-heading hr {
-        width: auto;
-    }
-
-    footer {
-        height: 200px;
-        font-size: 80%;
-    }
-}
-
 /*large screens (1470px=>) */
 
 @media screen and (max-width: 1470px) {
@@ -329,20 +315,16 @@ footer {
 
     #send {
         margin-right: 0;
-        right: 0
+        right: 0;
+        bottom: 480px;
     }
 
     textarea {
         width: 92%;
         margin-left: 4%;
         margin-right: 4%;
+        bottom: 600px;
     }
-
-}
-
-/* medium to small screens (1150px=>) */
-
-@media screen and (max-width: 1150px) {
 
     #contact {
         bottom: 220px;
@@ -355,16 +337,8 @@ footer {
         font-size: 90%;
     }
 
-    #send {
-        bottom: 480px;
-    }
-
-    textarea {
-        bottom: 600px;
-    }
-
     footer {
-        font-size: 60%;
+        font-size: 80%;
         height: 150px;
     }
 
@@ -372,13 +346,13 @@ footer {
 
 @media screen and (max-width: 800px) {
 
-    #main-background {
-        height: 900px;
-    }
-
     #navigation {
         width: 100%;
         float: left;
+    }
+
+    #form-heading hr {
+        width: auto;
     }
 
     #thank {
@@ -424,10 +398,6 @@ footer {
 
 @media screen and (max-width: 580px) {
 
-    #main-background {
-        height: 800px;
-    }
-
     #logo-img {
         visibility: hidden;
     }
@@ -442,10 +412,14 @@ footer {
     }
 
     #contact {
-        font-size: 60%;
-        line-height: 12px;
+        font-size: 50%;
+        line-height: 4px;
         letter-spacing: 2px;
         bottom: 160px;
+    }
+
+    #contact-left {
+        overflow-x: hidden;
     }
 
     #alt {
