@@ -72,4 +72,42 @@ The main font I used was Roboto, and Bebas Neue for the headers. I also used Eas
 For images used, please refer to the [Assets Folder](https://github.com/Liam-WB/hackney-coffee/tree/main/assets/images).
 
 [Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+
 ---
+# Features
+This website consists of 4 pages, 3 of which are accessible via the navigation menu and 1 is a success page, accessible after sending a message in the contact form page.
+
+The website contains the listed below features:
+
+## Header and Navigation Bar
+
+**The header is fully interactive with a logo and "icon" that when clicked on send you to the homepage. It also contains a nav bar on the right side, and each section that is hovered over is underlined giving a clear visual queue as to which page the user will be sent to when clicked on. The header is also fully responsive and when switching to tablet/phone sized viewports the menu switches to a compact menu.**
+- The logo is placed on the left along with the coffee beans themed icon (which is hidden on smaller viewports for higher visibility).
+- The nav bar, located on the right side is positioned depending on the viewport size and consists of 3 main sections: Home, Menu, Contact.
+
+## Contact Section
+
+- Consists of the email address, phone number and location of the cafe -All essential information for readers to know.
+- Coloured appropriately depending on the page, as not all pages consist of the same background although they share the same theme.
+- Contents are styled appropriately depending on viewport sizes.
+
+## Footer
+
+- Consists of the social media links, presented as icons for the user to click on.
+- Positioned and sized appropriately and responsively, so that they aren't too distracting, but are easily accessible.
+- Styled minimally to not take away form the main contents of the website, yet still keep to the theme.
+
+## Home Page
+
+- The Home Page is designed with a scroll-down presentation style, so that the content is narrowly placed on a 1 way path allowing users to easily find what they're looking for.
+- The home page is essentially multiple pages of content stacked on top of eachother made for newer users to be able to scroll through the content step by step if they're exploring (whilst still being given the option of heading to whatver page they need via the nav bar)
+- The background is a coffee table aesthetic made to go perfectly with the colour theme mentioned above, and large enough to fill the length of the page.
+- The home page contains 4 unique sections (on top of the above mentioned sections which are commonly found on all pages):
+  ### * About section
+  -
+
+## Menu Page
+
+## Contact (form) Page
+
+## Future implmentations to explore
