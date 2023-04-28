@@ -8,12 +8,12 @@ This Website is made on the behalf of "Hackney Coffee", a community made London 
 ---
 # Directory
 - [UX Design/Devolopment](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#ux-designdevelopment)
-- Features
-- Technology
-- Testing
-- Deployment
-- Referencing/credit
-- Project Screenshots
+- [Features](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#features)
+- [Technology](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#technology)
+- [Testing](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#testing)
+- [Deployment](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#deployment)
+- [Referencing/credit](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#referencingcredit)
+- [Project Screenshots](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#project-screenshots)
 
 # UX Design/Development
 ## Website Owner Goals
@@ -223,6 +223,7 @@ Past bugs and changes can be found in the [Commit Page](https://github.com/Liam-
 ## Performance Testing
 I used the chrome devlopers [lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) tool to check the website's performance. Here were the results:
 ![performance](https://user-images.githubusercontent.com/126467141/235242519-a1017e75-2522-424e-abd9-b77f95ea2bba.png)
+It was said that the website performs slightly slower than intended due to the various images I used, including the high resolution larger background image so I would assume that my project would load faster with a file that takes up less space. It was said that this performance can change depending on external factors but I will attempt to prevent slower performance times in the future nonetheless.
 
 ## Code Validation
 - I used [W3C HTML Markup Validator](https://validator.w3.org/) to validate my HTML.
