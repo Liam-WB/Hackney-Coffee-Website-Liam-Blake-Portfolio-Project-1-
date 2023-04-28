@@ -39,7 +39,7 @@ The purpose of this website is to present the cafe's information to the public (
 ### As a new/potential customer:
 - I wish to find all the basic information about the business including their ethos, history/past achievements and qualifications.
 - I wish to find out what menu items this cafe specialises in, and what other items they serve.
-- I want to feel like the cafe advertised in this website is a place that I feel as if I can fit in and share common interests and makes me want to visit.
+- I want to feel like the cafe advertised in this website is a place that I can fit in and share common interests and makes me want to visit.
 - I want to find the contact information, location and open hours to this business with relative ease so I can visit, make enquiries and find when is best to visit.
 
 ### As a returning customer:
@@ -172,24 +172,49 @@ The website contains the listed below features:
 # Testing
 - I used Chrome developer tools throughout the project to extensively test and debug any structure/style issues.
 
-# Compatibility Tests
+## Compatibility Tests
 - This website was rigorously tested on various browswers and devices including google chrome, microsoft edge and safari, all of which were tested on IOS devices (An Iphone and Ipad) and windows devices (ASUS laptop and windows OS desktop PC).
 
-### Target Audience Wants and Needs Tests
+## Target Audience Wants and Needs Tests
 ### As a business owner:
 - I would like to present myself and my business appropriately showing clearly what my business has to offer for potential customers.
-    >sad
+    > Logo listed clearly in the highly visible header, as well as the about us section being clearly shown at the bottom of the screen with a chevron icon made to get potential customers to scroll down and continue exploring.
 - I need to make sure that potential and returning customers are aware of the store's exact location and open times simply and clearly, so that they are able to locate the store properly and without any issues.
+    > Home page consists of sections all made with the above mentioned intended purposes and information, as well as being clearly outlined (with borders and/or contrasting colours) for newer users to easily locate.
 - I want potential customers to be interested by the website/the aesthetic of the website as well as understand clearly what it is intended for at first glance.
+    > The background and colour theme are assorted with the target audience in mind, allowing for a positive emotional response for the users.
 - I want potential customers to be able to easily learn to navigate the website with ease.
+    > The navigation bar allows users to navigate to whatver page they need in two clicks or less, and the main page is linear leading to users only needing to scroll up or down to gather the information they want.
 - I need to create and maintain a good relationship with potential, new and returning customers to create a positive result from a business and reputation standpoint.
+    > The website is built with the intention of enticing new customers into visiting the store due to the result of a positive user experience from the website itself.
 
 ### As a new/potential customer:
 - I wish to find all the basic information about the business including their ethos, history/past achievements and qualifications.
+    > This info can be found in the about section of the home page.
 - I wish to find out what menu items this cafe specialises in, and what other items they serve.
-- I want to feel like the cafe advertised in this website is a place that I feel as if I can fit in and share common interests and makes me want to visit.
+    > This info can be found in the about and different section and more info on the menu can be found in the menu section, from the nav bar.
+- I want to feel like the cafe advertised in this website is a place that I can fit in and share common interests and makes me want to visit.
+    > The website uses language and images to convey a positive response from the user, creating the above scenario.
 - I want to find the contact information, location and open hours to this business with relative ease so I can visit, make enquiries and find when is best to visit.
+    > The info above can be found in the open times, contact and map section on the main page and the contact section can be located in the nav bar.
 
 ### As a returning customer:
 - I wish to be able to revisit all the information in case I need to remind myself of it.
+    > The website is structured and styled to be easily readable, accessible and so that it can be easily navigated regardless of device or person using the website.
 - I wish to use this website as a way of showing others e.g. friends, family about this cafe.
+    > The meta tags and URL information make the website easy to find and link to others.
+
+## Issues/bugs found during testing/development:
+- Encountered an issue where certain icons were'nt appearing as intended.
+- This was only on certain icons, where I would recieve error messages such as "ERROR GET favicon " so I kept away from icons that were giving these error messages as I assumed they were not formatted properly.
+
+- Encountered an issue where certain elements were not scaling down properly according to their viewport sizes.
+![Overflow](https://user-images.githubusercontent.com/126467141/235235799-c409c924-15ff-4941-894b-40c792ab4805.png)
+- I fixed this by changing the CSS for a bunch of smaller elements. Some smaller elements such as the "main-text" elements were given fixed sizes and box models as I did not think it would be an issue at the time and had not yet thought about media queries. I then changed these types of elements' sizes to percentages so the content would adapt easier to different viewports.
+
+- Encountered an issue where the form was not redirecting to the success page when it was linked.
+- Initially I had intended to use the Code Institute form dump page, for the message submission confirmation, but decided it did not fit well and was not tailored to my website, so changed it to the success page. In doing so, I tried multiple ways of keeping both the form dump page as the form post location and the success page as the page the user is redirected to. I tried making the textarea an element outside of the form and giving it the "form" attribute as well as changing the submit input into a button with an anchor tag, but in the end the form dump page would always override the other "action" or "href", so for now I have removed the form dump page link and post method.
+
+![formbug](https://user-images.githubusercontent.com/126467141/235239003-9ee1b571-5701-4574-b700-cb0f2a15bd15.png)
+
+Past bugs and changes can be found in the [Commit Page](https://github.com/Liam-WB/hackney-coffee/commit/main).
