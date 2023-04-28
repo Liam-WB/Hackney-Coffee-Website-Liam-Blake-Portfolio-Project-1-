@@ -7,7 +7,7 @@ This Website is made on the behalf of "Hackney Coffee", a community made London 
 [Live Website Link](https://liam-wb.github.io/hackney-coffee/)
 ---
 # Directory
-- [UX Design](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#ux-design)
+- [UX Design/Devolopment](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#ux-design/developmeent)
 - Features
 - Technology
 - Testing
@@ -15,7 +15,7 @@ This Website is made on the behalf of "Hackney Coffee", a community made London 
 - Referencing/credit
 - Project Screenshots
 
-# UX Design
+# UX Design/Development
 ## Website Owner Goals
 The purpose of this website is to present the cafe's information to the public (new/returning customers). The website owner can present the accessibiliity information (cafe name, location, open hours, contact information for business and enquiries) as well as the cafe's ethos, goals towards the public, history/past achievements and what customers can expect to find within the cafe itself. This information produces the end result of allowing new and returning customers to use said information to have any questions answered as well as interest customers into visiting the store itself.
 ## New User Goals
