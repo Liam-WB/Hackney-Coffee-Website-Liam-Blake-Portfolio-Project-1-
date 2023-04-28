@@ -115,8 +115,8 @@ The website contains the listed below features:
   - Contains the open hours and days in a concise and neat table.
   - Styled with contrast in mind to allow users to locate the information easily.
   ### Map section
-  -Located just above the contact section, the map section is an embedded google maps iframe styled with a border (matching the contact section) made as an easily accessible and interactive section for users to easily locate the cafe, as well as keep users on the site, so that they're not distracted by opening another website.
-  -Sized appropriately, depending on viewport size.
+  - Located just above the contact section, the map section is an embedded google maps iframe styled with a border (matching the contact section) made as an easily accessible and interactive section for users to easily locate the cafe, as well as keep users on the site, so that they're not distracted by opening another website.
+  - Sized appropriately, depending on viewport size.
 
 ## Menu Page
 
@@ -134,7 +134,7 @@ The website contains the listed below features:
 
 ## Success Page
 
--Contains the ordinary structure and size of the contact page, but the form is replaced with a "processing/confirmation" message.
+- Contains the ordinary structure and size of the contact page, but the form is replaced with a "processing/confirmation" message.
 
 ## Future implmentations to explore
 
@@ -143,29 +143,30 @@ The website contains the listed below features:
 - Reviews page: An interactive page allowing for user feedback as well as a section to add more imagery content.
 - Videos/Audio file: Was explored, but were found to be most effective if I added another page, which I would need more time for.
 - Extra nav bar for the home page, or a sticky nav bar: For ease of access.
+- Background images on individual elements e.g. open hours table.
 
 [Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
 ---
 # Technology
 **Technology Used**
 ### HTML5
--Skeleton language
+- Skeleton language
 ### CSS
--Style language
+- Style language
 ### Font Awesome
--Icon library
+- Icon library
 ### Google Fonts
--Used for fonts
+- Used for fonts
 ### Git
--Version-control system
+- Version-control system
 ### GitHub
--Software Hosting Platform
+- Software Hosting Platform
 ### GitPod
--Development Hosting Platform
+- Development Hosting Platform
 ### Balsamiq Wireframes
--Wireframe creation tool
+- Wireframe creation tool
 ### Adobe Photoshop CS6
--Image editting software
+- Image editting software
 
 [Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
 ---
@@ -204,7 +205,7 @@ The website contains the listed below features:
 - I wish to use this website as a way of showing others e.g. friends, family about this cafe.
     > The meta tags and URL information make the website easy to find and link to others.
 
-## Issues/bugs found during testing/development:
+## Issues/bugs found during testing/development
 - Encountered an issue where certain icons were'nt appearing as intended.
 - This was only on certain icons, where I would recieve error messages such as "ERROR GET favicon " so I kept away from icons that were giving these error messages as I assumed they were not formatted properly.
 
@@ -218,3 +219,51 @@ The website contains the listed below features:
 ![formbug](https://user-images.githubusercontent.com/126467141/235239003-9ee1b571-5701-4574-b700-cb0f2a15bd15.png)
 
 Past bugs and changes can be found in the [Commit Page](https://github.com/Liam-WB/hackney-coffee/commit/main).
+
+## Performance Testing
+I used the chrome devlopers [lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) tool to check the website's performance. Here were the results:
+![performance](https://user-images.githubusercontent.com/126467141/235242519-a1017e75-2522-424e-abd9-b77f95ea2bba.png)
+
+## Code Validation
+- I used [W3C HTML Markup Validator](https://validator.w3.org/) to validate my HTML.
+- I used [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate my CSS.
+
+[Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+---
+# Deplyoment
+The project was deployed on GitHub pages. I used GitPod to commit my changes to git version control and pushed to GitHub. I then deployed my project by going to settings, changing the source to the main branch and saved. This published my site to https://liam-wb.github.io/hackney-coffee/
+
+This project can also be run locally by extracting the code to a Zip file and running in your own IDE
+
+[Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+---
+# Referencing/credit
+- The linked [Student Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used for this project, made and supplied by Code Institute.
+### Code
+- HTML https://www.w3schools.com/
+- CSS https://css-tricks.com/
+- Code Snippets https://www.w3schools.com/howto/default.asp
+### Content
+- Map https://www.google.com/maps/@51.5675886,-0.0588082,14z
+- Images https://images.google.co.uk/
+- Images https://www.pexels.com/
+### Ideas
+- https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md
+- Various Coffee Shop/Cafe websites https://chimneyfirecoffee.com/pages/office-coffee?msclkid=3ffcb9927c241d8e9519ddde57fe8d2b&utm_source=bing&utm_medium=cpc&utm_campaign=Feb%202023%20Office%20Leads%20Search%20Campaign&utm_term=workplace%20coffee&utm_content=Ad%20group%201
+- https://mceu.co.uk/?utm_campaign=482303848&utm_source=bing&utm_medium=cpc&device=c&placement=&network=o
+- Prevously made website https://github.com/Liam-WB/love-running
+
+[Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+---
+
+# Project Screenshots
+![ss1](https://user-images.githubusercontent.com/126467141/235248532-6b5297da-b799-4ff7-97f8-4a1363cafcf5.png)
+![ss2](https://user-images.githubusercontent.com/126467141/235248547-aa872fb9-4c13-49b5-9968-53f0750cda59.png)
+![ss3](https://user-images.githubusercontent.com/126467141/235248555-405a19d3-4bef-4d36-90b3-b5294ffb0cba.png)
+![ss4](https://user-images.githubusercontent.com/126467141/235248564-0ad501e6-523a-44c4-adcb-6bb7f6f8a57b.png)
+![ss5](https://user-images.githubusercontent.com/126467141/235248569-bf141e3a-8929-490a-bc8f-4d292f60abe4.png)
+![ss6menu](https://user-images.githubusercontent.com/126467141/235248571-13a5b209-8313-4a46-8546-895cd896c3bc.png)
+![ss7contactform](https://user-images.githubusercontent.com/126467141/235248574-055f9253-a29d-4aaf-b58a-a24d5916a564.png)
+
+[Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+---
