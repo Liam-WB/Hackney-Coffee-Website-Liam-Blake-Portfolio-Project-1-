@@ -7,7 +7,7 @@ This Website is made on the behalf of "Hackney Coffee", a community made London 
 [Live Website Link](https://liam-wb.github.io/hackney-coffee/)
 ---
 # Directory
-- [UX Design/Devolopment](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#ux-design/developmeent)
+- [UX Design/Devolopment](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#ux-design/development)
 - Features
 - Technology
 - Testing
