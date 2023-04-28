@@ -103,7 +103,7 @@ The website contains the listed below features:
 - The home page is essentially multiple pages of content stacked on top of eachother made for newer users to be able to scroll through the content step by step if they're exploring (whilst still being given the option of heading to whatver page they need via the nav bar)
 - The background is a coffee table aesthetic made to go perfectly with the colour theme mentioned above, and large enough to fill the length of the page.
 - The home page contains 4 unique sections (on top of the above mentioned sections which are commonly found on all pages):
-  ### - About section
+ ### - About section
   -
 
 ## Menu Page
