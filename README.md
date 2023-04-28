@@ -43,5 +43,15 @@ The purpose of this website is to present the cafe's information to the public (
 - I want to find the contact information, location and open hours to this business with relative ease so I can visit, make enquiries and find when is best to visit.
 
 ### As a returning customer:
--I wish to be able to revisit all the information in case I need to remind myself of it.
--I wish to use this website as a way of showing others e.g. friends, family about this cafe.
+- I wish to be able to revisit all the information in case I need to remind myself of it.
+- I wish to use this website as a way of showing others e.g. friends, family about this cafe.
+
+## Website Structure
+
+The website was create with simplicity and ease of access in mind, so that would result in a hassle free positive user experience. This result should not differ between devices as the page is made to be responsive to all common viewports to generate the same positive emotional response. All sections of each page are designed to allow for maximal user satisfaction. Examples of this include the theme or style created being targetted towards coffee, which is a common interest for the target audience, as well as the styling used for hover sections and links leading to the aforementioned positive user response.
+
+## Wireframes
+
+Simple and minimal mockups were created at the start with Balsamiq Wireframes, which I would then experiment with and playtest later in gitpod until I would find positioning and styling that I was happy with.
+
+[Coffee Shop Website Wireframe.pdf](https://github.com/Liam-WB/hackney-coffee/files/11355175/Coffee.Shop.Website.Wireframe.pdf)
