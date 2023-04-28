@@ -54,7 +54,7 @@ The website was create with simplicity and ease of access in mind, so that would
 
 Simple and minimal mockups were created at the start with Balsamiq Wireframes, which I would then experiment with and playtest later in gitpod until I would find positioning and styling that I was happy with.
 
-[Coffee Shop Website Wireframe.pdf](https://github.com/Liam-WB/hackney-coffee/files/11355175/Coffee.Shop.Website.Wireframe.pdf)
+[Coffee Shop Website Wireframe](https://github.com/Liam-WB/hackney-coffee/files/11355175/Coffee.Shop.Website.Wireframe.pdf)
 
 ## Style testing
 
@@ -69,4 +69,4 @@ These are the main colours I used:
 The main font I used was Roboto, and Bebas Neue for the headers. I also used East Sea Dokdo for the menu lists, to give them more of a chalk on blackboard asethetic. I used Sans Serif as a backup font.
 
 ### Images
-For images used, please refer to the [Assets Folder]().
+For images used, please refer to the [Assets Folder](https://github.com/Liam-WB/hackney-coffee/tree/main/assets/images).
