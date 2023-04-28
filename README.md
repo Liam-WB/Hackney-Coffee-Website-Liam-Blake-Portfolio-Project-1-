@@ -72,7 +72,6 @@ The main font I used was Roboto, and Bebas Neue for the headers. I also used Eas
 For images used, please refer to the [Assets Folder](https://github.com/Liam-WB/hackney-coffee/tree/main/assets/images).
 
 [Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
-
 ---
 # Features
 This website consists of 4 pages, 3 of which are accessible via the navigation menu and 1 is a success page, accessible after sending a message in the contact form page.
@@ -103,11 +102,94 @@ The website contains the listed below features:
 - The home page is essentially multiple pages of content stacked on top of eachother made for newer users to be able to scroll through the content step by step if they're exploring (whilst still being given the option of heading to whatver page they need via the nav bar)
 - The background is a coffee table aesthetic made to go perfectly with the colour theme mentioned above, and large enough to fill the length of the page.
 - The home page contains 4 unique sections (on top of the above mentioned sections which are commonly found on all pages):
- ### - About section
-  -
+  ### Main section
+  - A welcome message/slogan -One of the first things the user will see, shows the location and instantly gives the user an idea of what the website is for.
+  - Styled to be responsive to all viewports.
+  ### About section
+  - Contains the cafe ethos, history/origin and goals for the future.
+  - Styled to fit different view ports
+  ### Different section
+  - Contains boxes of information giving the user facts about the cafe and feeding them selling points as well as nutritional information.
+  - Styled to spread out on larger viewports, but is positioned in the above mentioned narrow presentation on smaller devices for visibility.
+  ### Open Times Section
+  - Contains the open hours and days in a concise and neat table.
+  - Styled with contrast in mind to allow users to locate the information easily.
+  ### Map section
+  -Located just above the contact section, the map section is an embedded google maps iframe styled with a border (matching the contact section) made as an easily accessible and interactive section for users to easily locate the cafe, as well as keep users on the site, so that they're not distracted by opening another website.
+  -Sized appropriately, depending on viewport size.
 
 ## Menu Page
 
+- The menu page is a simple section consisting of all the aforementioned parts, and the menu section.
+  ### Menu section
+  - Contains the menu heading, followed by a hr that fits the content, but is styled to fit screen width on smaller viewports.
+  - Contains 3 main menu sections spread across the screen and positioned in a more narrow presentation as the viewports get smaller. These consist of "chalkboard" backgrounds and "chalk" styled text to give off the idea of an actual cafe menu.
+
 ## Contact (form) Page
 
+- The contact page also consists of all the aforementioned parts, as well as the form section itself.
+  ### Form section
+  - The form contains a h2 to declare the page like the one in the menu page.
+  - It also contains an input section for the user's name, email and phone number that are required and will be taken down when a message is sent in the textarea input. Once a message is sent, the user is redirected to the success page.
+
+## Success Page
+
+-Contains the ordinary structure and size of the contact page, but the form is replaced with a "processing/confirmation" message.
+
 ## Future implmentations to explore
+
+**The following ideas/parts were concepted or possible, but were not added due to time constraints, or practicality reasons.**
+
+- Reviews page: An interactive page allowing for user feedback as well as a section to add more imagery content.
+- Videos/Audio file: Was explored, but were found to be most effective if I added another page, which I would need more time for.
+- Extra nav bar for the home page, or a sticky nav bar: For ease of access.
+
+[Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+---
+# Technology
+**Technology Used**
+### HTML5
+-Skeleton language
+### CSS
+-Style language
+### Font Awesome
+-Icon library
+### Google Fonts
+-Used for fonts
+### Git
+-Version-control system
+### GitHub
+-Software Hosting Platform
+### GitPod
+-Development Hosting Platform
+### Balsamiq Wireframes
+-Wireframe creation tool
+### Adobe Photoshop CS6
+-Image editting software
+
+[Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
+---
+# Testing
+- I used Chrome developer tools throughout the project to extensively test and debug any structure/style issues.
+
+# Compatibility Tests
+- This website was rigorously tested on various browswers and devices including google chrome, microsoft edge and safari, all of which were tested on IOS devices (An Iphone and Ipad) and windows devices (ASUS laptop and windows OS desktop PC).
+
+### Target Audience Wants and Needs Tests
+### As a business owner:
+- I would like to present myself and my business appropriately showing clearly what my business has to offer for potential customers.
+    >sad
+- I need to make sure that potential and returning customers are aware of the store's exact location and open times simply and clearly, so that they are able to locate the store properly and without any issues.
+- I want potential customers to be interested by the website/the aesthetic of the website as well as understand clearly what it is intended for at first glance.
+- I want potential customers to be able to easily learn to navigate the website with ease.
+- I need to create and maintain a good relationship with potential, new and returning customers to create a positive result from a business and reputation standpoint.
+
+### As a new/potential customer:
+- I wish to find all the basic information about the business including their ethos, history/past achievements and qualifications.
+- I wish to find out what menu items this cafe specialises in, and what other items they serve.
+- I want to feel like the cafe advertised in this website is a place that I feel as if I can fit in and share common interests and makes me want to visit.
+- I want to find the contact information, location and open hours to this business with relative ease so I can visit, make enquiries and find when is best to visit.
+
+### As a returning customer:
+- I wish to be able to revisit all the information in case I need to remind myself of it.
+- I wish to use this website as a way of showing others e.g. friends, family about this cafe.
