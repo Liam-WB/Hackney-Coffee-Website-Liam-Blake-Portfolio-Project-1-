@@ -231,7 +231,7 @@ It was said that the website performs slightly slower than intended due to the v
 
 [Return to Directory](https://github.com/Liam-WB/hackney-coffee/blob/main/README.md#directory)
 ---
-# Deplyoment
+# Deployment
 The project was deployed on GitHub pages. I used GitPod to commit my changes to git version control and pushed to GitHub. I then deployed my project by going to settings, changing the source to the main branch and saved. This published my site to https://liam-wb.github.io/hackney-coffee/
 
 This project can also be run locally by extracting the code to a Zip file and running in your own IDE
